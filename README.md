@@ -1,4 +1,4 @@
-# HOC_FREE_SSL_Demo
+# Free SSL Certificate with Automatic Renewal & Deployment
 
 This repository contains the Terraform code and supporting resources for setting up free SSL certificates on an Oracle Cloud Infrastructure (OCI) Load Balancer (LB) using Let's Encrypt, Certbot, and the OCI CLI.  This setup includes automated certificate renewal.
 
@@ -9,6 +9,8 @@ This repository contains the Terraform code and supporting resources for setting
 This setup automates the process of obtaining and deploying SSL certificates from Let's Encrypt and automatically renews them on your OCI Load Balancer. The solution leverages Terraform for infrastructure provisioning, Certbot for certificate management, and the OCI CLI for certificate deployment.
 
 ## Architecture
+
+![image](https://github.com/user-attachments/assets/59b17ee4-6753-4547-9010-6add282eb715)
 
 The solution deploys the following components:
 
